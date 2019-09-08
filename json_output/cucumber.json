@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 20,
+        "line": 21,
         "name": "Free CRM Create Contacts Test scenario",
         "description": "",
         "id": "free-crm-createcontacts-feature;free-crm-create-contacts-test-scenario;;2",
@@ -12,34 +12,34 @@
         "steps": [
           {
             "result": {
-              "duration": 15626637976,
+              "duration": 13231848550,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on login page",
             "match": {
-              "location": "LoginStepDef.user_is_on_login_page()"
+              "location": "CreateContactsStepDef.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 16371578764,
+              "duration": 8865263328,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "title of login page is free crm",
             "match": {
-              "location": "LoginStepDef.title_of_login_page_is_free_crm()"
+              "location": "CreateContactsStepDef.title_of_login_page_is_free_crm()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 644080927,
+              "duration": 600320874,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user enters \"srinivas.tutta@gmail.com\" and \"Vedik2015\"",
             "match": {
               "arguments": [
@@ -52,7 +52,7 @@
                   "offset": 44
                 }
               ],
-              "location": "LoginStepDef.user_enters_username_and_password(String,String)"
+              "location": "CreateContactsStepDef.user_enters_username_and_password(String,String)"
             },
             "matchedColumns": [
               0,
@@ -62,58 +62,58 @@
           },
           {
             "result": {
-              "duration": 102197435,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDef.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 17715916,
+              "duration": 90079078,
               "status": "passed"
             },
             "line": 9,
-            "name": "user is on homepage",
+            "name": "user clicks on login button",
             "match": {
-              "location": "LoginStepDef.user_is_on_homepage()"
+              "location": "CreateContactsStepDef.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2837690901,
+              "duration": 17430100,
               "status": "passed"
             },
             "line": 10,
-            "name": "user clicks on Contacts",
+            "name": "user is on homepage",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_Contacts()"
+              "location": "CreateContactsStepDef.user_is_on_homepage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 295683522,
+              "duration": 3163996745,
               "status": "passed"
             },
             "line": 11,
-            "name": "user clicks on New button",
+            "name": "user clicks on Contacts",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_New_button()"
+              "location": "CreateContactsStepDef.user_clicks_on_Contacts()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2271144541,
+              "duration": 336770998,
               "status": "passed"
             },
             "line": 12,
+            "name": "user clicks on New button",
+            "match": {
+              "location": "CreateContactsStepDef.user_clicks_on_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1983899764,
+              "status": "passed"
+            },
+            "line": 13,
             "name": "user enter Contact details \"Vedik\" and \"Tutta\" and \"QA\"",
             "match": {
               "arguments": [
@@ -130,7 +130,7 @@
                   "offset": 52
                 }
               ],
-              "location": "LoginStepDef.user_enter_Contact_details_and_and(String,String,String)"
+              "location": "CreateContactsStepDef.user_enter_Contact_details_and_and(String,String,String)"
             },
             "matchedColumns": [
               2,
@@ -141,32 +141,42 @@
           },
           {
             "result": {
-              "duration": 168797001,
+              "duration": 217543912,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "user clicks on Save button",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_Save_button()"
+              "location": "CreateContactsStepDef.user_clicks_on_Save_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 60144,
+              "duration": 886002407,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "close the browser",
             "match": {
-              "location": "LoginStepDef.close_the_broser()"
+              "location": "CreateContactsStepDef.close_the_broser()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@CRM"
+          },
+          {
+            "line": 3,
+            "name": "@SmokeTest"
           }
         ]
       },
       {
-        "line": 21,
+        "line": 22,
         "name": "Free CRM Create Contacts Test scenario",
         "description": "",
         "id": "free-crm-createcontacts-feature;free-crm-create-contacts-test-scenario;;3",
@@ -175,34 +185,34 @@
         "steps": [
           {
             "result": {
-              "duration": 15411956842,
+              "duration": 10647638709,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "user is on login page",
             "match": {
-              "location": "LoginStepDef.user_is_on_login_page()"
+              "location": "CreateContactsStepDef.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8325291097,
+              "duration": 9237156694,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "title of login page is free crm",
             "match": {
-              "location": "LoginStepDef.title_of_login_page_is_free_crm()"
+              "location": "CreateContactsStepDef.title_of_login_page_is_free_crm()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 603498254,
+              "duration": 623213848,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user enters \"srinivas.tutta@gmail.com\" and \"Vedik2015\"",
             "match": {
               "arguments": [
@@ -215,7 +225,7 @@
                   "offset": 44
                 }
               ],
-              "location": "LoginStepDef.user_enters_username_and_password(String,String)"
+              "location": "CreateContactsStepDef.user_enters_username_and_password(String,String)"
             },
             "matchedColumns": [
               0,
@@ -225,58 +235,58 @@
           },
           {
             "result": {
-              "duration": 87859897,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDef.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15590808,
+              "duration": 92314707,
               "status": "passed"
             },
             "line": 9,
-            "name": "user is on homepage",
+            "name": "user clicks on login button",
             "match": {
-              "location": "LoginStepDef.user_is_on_homepage()"
+              "location": "CreateContactsStepDef.user_clicks_on_login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2779971141,
+              "duration": 19605072,
               "status": "passed"
             },
             "line": 10,
-            "name": "user clicks on Contacts",
+            "name": "user is on homepage",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_Contacts()"
+              "location": "CreateContactsStepDef.user_is_on_homepage()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 387347949,
+              "duration": 2723547316,
               "status": "passed"
             },
             "line": 11,
-            "name": "user clicks on New button",
+            "name": "user clicks on Contacts",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_New_button()"
+              "location": "CreateContactsStepDef.user_clicks_on_Contacts()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2113222396,
+              "duration": 319768593,
               "status": "passed"
             },
             "line": 12,
+            "name": "user clicks on New button",
+            "match": {
+              "location": "CreateContactsStepDef.user_clicks_on_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2103846528,
+              "status": "passed"
+            },
+            "line": 13,
             "name": "user enter Contact details \"Manvik\" and \"Tutta\" and \"Dev\"",
             "match": {
               "arguments": [
@@ -293,7 +303,7 @@
                   "offset": 53
                 }
               ],
-              "location": "LoginStepDef.user_enter_Contact_details_and_and(String,String,String)"
+              "location": "CreateContactsStepDef.user_enter_Contact_details_and_and(String,String,String)"
             },
             "matchedColumns": [
               2,
@@ -304,27 +314,37 @@
           },
           {
             "result": {
-              "duration": 205520140,
+              "duration": 229950656,
               "status": "passed"
             },
-            "line": 13,
+            "line": 14,
             "name": "user clicks on Save button",
             "match": {
-              "location": "LoginStepDef.user_clicks_on_Save_button()"
+              "location": "CreateContactsStepDef.user_clicks_on_Save_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 34955,
+              "duration": 841036379,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "close the browser",
             "match": {
-              "location": "LoginStepDef.close_the_broser()"
+              "location": "CreateContactsStepDef.close_the_broser()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@CRM"
+          },
+          {
+            "line": 3,
+            "name": "@SmokeTest"
           }
         ]
       }
@@ -333,6 +353,12 @@
     "description": "",
     "id": "free-crm-createcontacts-feature",
     "keyword": "Feature",
-    "uri": "E:/Selenium/Workspace/CucumberFramework/src/main/java/Features/CreateContacts.feature"
+    "uri": "E:/Selenium/Workspace/CucumberFramework/src/main/java/Features/CreateContacts.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CRM"
+      }
+    ]
   }
 ]

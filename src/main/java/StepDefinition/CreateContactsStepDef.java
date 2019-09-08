@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import junit.framework.Assert;
 
-public class LoginStepDef {
+public class CreateContactsStepDef {
 	WebDriver driver;
 	
 @Given("^user is on login page$")
@@ -84,4 +84,5 @@ driver.findElement(By.xpath("//*[@id=\"dashboard-toolbar\"]/div[2]/div/button[2]
 public void close_the_broser() {
 driver.quit();
 	
-}}
+}
+	}

@@ -1,5 +1,6 @@
+@CRM
 Feature: Free CRM CreateContacts feature
-
+@SmokeTest
 Scenario Outline: Free CRM Create Contacts Test scenario
 
 Given user is on login page

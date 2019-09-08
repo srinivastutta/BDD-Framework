@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="68.26588">
-<testcase classname="Free CRM CreateContacts feature" name="Free CRM Create Contacts Test scenario" time="38.335587">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="56.231235">
+<testcase classname="Free CRM CreateContacts feature" name="Free CRM Create Contacts Test scenario" time="29.393156">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is free crm........................................passed
 Then user enters "srinivas.tutta@gmail.com" and "Vedik2015".................passed
@@ -12,7 +12,7 @@ Then user clicks on Save button.............................................pass
 Then close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM CreateContacts feature" name="Free CRM Create Contacts Test scenario 2" time="29.930293">
+<testcase classname="Free CRM CreateContacts feature" name="Free CRM Create Contacts Test scenario 2" time="26.838079">
 <system-out><![CDATA[Given user is on login page.................................................passed
 When title of login page is free crm........................................passed
 Then user enters "srinivas.tutta@gmail.com" and "Vedik2015".................passed
